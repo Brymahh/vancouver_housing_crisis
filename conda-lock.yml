@@ -13,10 +13,10 @@
 version: 1
 metadata:
   content_hash:
-    linux-64: 94bf223ea044454c6dc672ea37084252f54ccc037422bdbc67fd65d820f40ee0
-    osx-arm64: 540c4e0d3e4a4abb39dae607e44f1902261765bd4b42009d726ab94365a7a0ee
-    osx-64: e73fe2291346bbf7336d57926fdbffc504567ef4e3f79fda83aac74e49992343
-    win-64: 1897931e3ab5e76b6acbe7d96f6e7e6f25c0a6ad6524c6a47412e360d618893a
+    linux-64: f26602ffcdda005a57b9f175cbf82008fe72d19d26d124a7af00b5096fabf415
+    osx-arm64: e2533af1f4ac7b7a132f6a0ce1abed2d995eaad40a8e3b9ae038b38910dd6a54
+    osx-64: 0830e6461fcb8740bea73660cb70c3446f5acae8a8c374648d72a10a75f2eef1
+    win-64: fd14e6fab6c8769dfb9f5139ab1f256040ff8d395f990537878870baade63c6b
   channels:
   - url: conda-forge
     used_env_vars: []
@@ -16249,62 +16249,6 @@ package:
   hash:
     md5: 338201218b54cadff2e774ac27733990
     sha256: 50fad5db6734d1bb73df1cf5db73215e326413d4b2137933f70708aa1840e25b
-  category: main
-  optional: false
-- name: ucimlrepo
-  version: 0.0.7
-  manager: conda
-  platform: linux-64
-  dependencies:
-    certifi: '>=2020.12.5'
-    pandas: '>=1.0.0'
-    python: '>=3.9'
-  url: https://conda.anaconda.org/conda-forge/noarch/ucimlrepo-0.0.7-pyhd8ed1ab_1.conda
-  hash:
-    md5: 4a93353fb5cf32875e79a632ca3fe905
-    sha256: cc3595c8e8812b20fd75a905ccb8e3a748c94964dca046fbdce6c2df865ead82
-  category: main
-  optional: false
-- name: ucimlrepo
-  version: 0.0.7
-  manager: conda
-  platform: osx-64
-  dependencies:
-    certifi: '>=2020.12.5'
-    pandas: '>=1.0.0'
-    python: '>=3.9'
-  url: https://conda.anaconda.org/conda-forge/noarch/ucimlrepo-0.0.7-pyhd8ed1ab_1.conda
-  hash:
-    md5: 4a93353fb5cf32875e79a632ca3fe905
-    sha256: cc3595c8e8812b20fd75a905ccb8e3a748c94964dca046fbdce6c2df865ead82
-  category: main
-  optional: false
-- name: ucimlrepo
-  version: 0.0.7
-  manager: conda
-  platform: osx-arm64
-  dependencies:
-    certifi: '>=2020.12.5'
-    pandas: '>=1.0.0'
-    python: '>=3.9'
-  url: https://conda.anaconda.org/conda-forge/noarch/ucimlrepo-0.0.7-pyhd8ed1ab_1.conda
-  hash:
-    md5: 4a93353fb5cf32875e79a632ca3fe905
-    sha256: cc3595c8e8812b20fd75a905ccb8e3a748c94964dca046fbdce6c2df865ead82
-  category: main
-  optional: false
-- name: ucimlrepo
-  version: 0.0.7
-  manager: conda
-  platform: win-64
-  dependencies:
-    certifi: '>=2020.12.5'
-    pandas: '>=1.0.0'
-    python: '>=3.9'
-  url: https://conda.anaconda.org/conda-forge/noarch/ucimlrepo-0.0.7-pyhd8ed1ab_1.conda
-  hash:
-    md5: 4a93353fb5cf32875e79a632ca3fe905
-    sha256: cc3595c8e8812b20fd75a905ccb8e3a748c94964dca046fbdce6c2df865ead82
   category: main
   optional: false
 - name: ucrt

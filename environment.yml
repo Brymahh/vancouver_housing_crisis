@@ -9,7 +9,6 @@ dependencies:
   - pandas>=2.0  # Fixed: pandas is currently at 2.x, not 3.x
   - pandera
   - pip
-  - ucimlrepo
   - pointblank
   - python>=3.10  # Specify Python version
   - scikit-learn
